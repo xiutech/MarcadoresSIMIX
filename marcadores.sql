@@ -19,6 +19,14 @@ INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema)
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.127814, 19.296411, 'Goal Fit Center', 'Calzada de las Brujas 98, ideal para jugar futbol' ,'Edificios 19s');
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.127534, 19.285082, 'Glorieta de vaqueritos', 'Excelente cancha para futbol rapido.','Edificios 19s');
 
+INSERT INTO tema (nombre, color, correo_informador) VALUES ('Centros culturales', '#88ffff',  'mu.andrea@ciencias.unam.mx');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.141720, 19.286008, 'Centro Cultural y Deportivo del TEC', 'Esta adentro del campus del TEC', 'Centros culturales');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.141712, 19.317406, 'Casa de cultura El reloj', 'Entre Tallo y Polen CDMX', 'Centros culturales');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.178655, 19.302626, 'Centro cultural Ollin Yoliztli', 'Excelente para conciertos', 'Centros culturales');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.142388, 19.338459, 'Centro cultural Tlalpan', 'Sirve como refugio', 'Centros culturales');
+
+
+
 INSERT INTO informador (correo,nombre,contrasenia) VALUES ('jhovan.gallardo@ciencias.unam.mx','Jhovan','password');
 
 INSERT INTO tema (nombre, color, correo_informador) VALUES ('CCHs', '#808000',  'jhovan.gallardo@ciencias.unam.mx');
