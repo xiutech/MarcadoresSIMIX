@@ -38,10 +38,56 @@ INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema)
 
 INSERT INTO informador (correo,nombre,contrasenia) VALUES ('kevincervantes@ciencias.unam.mx','Kevin','qwerty');
 
-INSERT INTO tema (nombre, color, correo_informador) VALUES ('Museos Transformaciones Nacionales', '#e2281f',  'kevincervantes@ciencias.unam.mx');
-INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.154911, 19.416715, 'Independencia', 'Museo De La Independencia', 'Museos Transformaciones Nacionales');
-INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.432699, -99.131232, 'Reforma', 'Recinto de Homenaje a Benito Juarez', 'Museos Transformaciones Nacionales');
-INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.436194, -99.154660, 'Revolución', 'Museo De La Revolución Nacional', 'Museos Transformaciones Nacionales');
+INSERT INTO tema (nombre, color, correo_informador) VALUES ('Museos Historia Nacional', '#e2281f',  'kevincervantes@ciencias.unam.mx');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.154911, 19.416715, 'Independencia', 'Museo De La Independencia', 'Museos Historia Nacional');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.432699, -99.131232, 'Reforma', 'Recinto de Homenaje a Benito Juarez', 'Museos Historia Nacional');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.436194, -99.154660, 'Revolución', 'Museo De La Revolución Nacional', 'Museos Historia Nacional');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.694071, -98.842758, 'Teotihuacan', 'Piramides de Teotihuacan', 'Museos Historia Nacional');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.355205, -99.148795, 'Intervenciones', 'Museo Nacional de las Intervenciones', 'Museos Historia Nacional');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.420722, -99.181867, 'Historia Nacional', 'Museo Nacional de Historia', 'Museos Historia Nacional');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.436509, -99.129428, 'Constituciones', 'Museo de las Constituciones', 'Museos Historia Nacional');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.434776, -99.131849, 'Templo Mayor', 'Museo del Templo Mayor', 'Museos Historia Nacional');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.449932, -99.137584, 'Sitio de Tlatelolco', 'Museo del Sitio de Tlatelolco', 'Museos Historia Nacional');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.429379, -99.132128, 'Ciudad de Mexico', 'Museo de la Ciudad de Mexico', 'Museos Historia Nacional');
+
+
+INSERT INTO tema (nombre, color, correo_informador) VALUES ('Bibliotecas CDMX', '#ec6a31',  'kevincervantes@ciencias.unam.mx');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.428665, -99.149605, 'Biblioteca Ciudadela', 'Biblioteca de Mexico', 'Bibliotecas CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.316361, -99.185306, 'Biblioteca UNAM', 'Biblioteca Nacional de Mexico', 'Bibliotecas CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.446778, -99.150796, 'Jose Vasconcelos', 'Biblioteca Jose Vasconcelos', 'Bibliotecas CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.333503, -99.187331, 'Biblioteca UNAM', 'Biblioteca Central', 'Bibliotecas CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.371244, -99.263877, 'Biblioteca Universidad Iberoamericaca', 'Biblioteca Francisco Xavier Clavijero', 'Bibliotecas CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.436469, -99.113281, 'Palacio de Lecumberri', 'Archivo General de la Nacion', 'Bibliotecas CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.407409, -99.177387, 'Centro Cultural', 'Centro Cultural Bella Epoca', 'Bibliotecas CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.429524, -99.137830, 'Miguel Lerdo de Tejada', 'Biblioteca Miguel Lerdo de Tejada', 'Bibliotecas CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.412119, -99.172353, 'Centro de creación y fomentación de lectura', 'Centro de creación literaria Xavier Villaurrutia', 'Bibliotecas CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.435565, -99.137777, 'Biblioteca del Congreso de la Union', 'Biblioteca General de la Cámara de Diputados del H. Congreso de la Unión', 'Bibliotecas CDMX');
+
+
+INSERT INTO tema (nombre, color, correo_informador) VALUES ('Zonas Militares', '#a2ec31',  'kevincervantes@ciencias.unam.mx');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.404092, -99.191330, '1a Zona Militar Tacubaya CDMX', 'S.D.N. Primera Zona Militar Pagaduría', 'Zonas Militares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (32.521746, -117.035828, '2a Zona Militar Tijuana', 'Secretaría Nacional de la Defensa Zona Militar 2', 'Zonas Militares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (24.152415, -110.298294, '3a Zona Militar La Paz', '3/a Zona Militar SEDENA', 'Zonas Militares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (29.112636, -110.947888, '4a Zona Militar Hermosillo', 'Sedena 4A Zona Militar', 'Zonas Militares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (28.619612, -106.082498, '5a Zona Militar Chihuahua', 'SEDENA Quinta Zona Militar Pagaduría', 'Zonas Militares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (25.407701, -101.008973, '6a Zona Militar Saltillo', 'Sexta Zona Militar', 'Zonas Militares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (25.855365, -100.254971, '7a Zona Militar NL', 'Campo Militar No 7-A', 'Zonas Militares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (26.025472, -98.248222, '8a Zona Militar Reynosa', 'Cuartel Militar Reynosa', 'Zonas Militares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (24.797953, -107.376222, '9a Zona Militar Culiacan', 'Cuartel Militar Novena Zona Culiacán Sinaloa', 'Zonas Militares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (24.026758, -104.673704, '10a Zona Militar Durango', 'Decima Zona Militar', 'Zonas Militares');
+
+
+INSERT INTO tema (nombre, color, correo_informador) VALUES ('Restaurantes de Comida China CDMX', '#31ecb6',  'kevincervantes@ciencias.unam.mx');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.432390, -99.183295, 'Restaurante 1', 'China Shing', 'Restaurantes de Comida China CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.406088, -99.226893, 'Restaurante 2', 'Hunan Reforma', 'Restaurantes de Comida China CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.428804, -99.161690, 'Restaurante 3', 'P.F Changs', 'Restaurantes de Comida China CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.410976, -99.174792, 'Restaurante 4', 'Asian Bay', 'Restaurantes de Comida China CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.393801, -99.170417, 'Restaurante 5', 'Blossom Del Valle', 'Restaurantes de Comida China CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.346088, -99.187764, 'Restaurante 6', 'Zohe China Gourmet', 'Restaurantes de Comida China CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.426958, -99.163793, 'Restaurante 7', 'El Dragon', 'Restaurantes de Comida China CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.427971, -99.178657, 'Restaurante 8', 'China Grill', 'Restaurantes de Comida China CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.418491, -99.174381, 'Restaurante 9', 'Chinaloa', 'Restaurantes de Comida China CDMX');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.432958, -99.142996, 'Restaurante 10', 'Hong King', 'Restaurantes de Comida China CDMX');
 
 
 INSERT INTO informador (correo,nombre,contrasenia) VALUES ('fer.reyesg@ciencias.unam.mx','Fernando','contrasenia');
