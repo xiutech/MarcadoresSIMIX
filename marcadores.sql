@@ -96,3 +96,33 @@ INSERT INTO tema (nombre, color, correo_informador) VALUES ('Guia de Pulquerias 
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.418565, -99.138095, 'Pulqueria I', 'La Catedral del Pulque', 'Guia de Pulquerias para Turistas');
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.430389, -99.142725, 'Pulqueria II', 'Las Duelistas', 'Guia de Pulquerias para Turistas');
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (19.441083, -99.138577, 'Pulqueria III', 'La Hermosa Hortensia', 'Guia de Pulquerias para Turistas');
+
+
+INSERT INTO informador (correo,nombre,contrasenia) VALUES ('mausuarez@ciencias.unam.mx','Mauricio','12345');
+
+INSERT INTO tema (nombre, color, correo_informador) VALUES ('Estaciones del metro', '#0066cc',  'mausuarez@ciencias.unam.mx');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.187302, 19.376145, 'Mixcoac', 'Estacion del metro de la 7 y 12 [Insurgentes Mixcoac, 03920 Ciudad de México, CDMX]', 'Estaciones del metro');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.190950, 19.433622, 'Polanco', 'Estacion del metro de la linea 7 [Ruta Metro Insurgentes a EH, Polanco, Polanco V Secc, 11560 Ciudad de México, CDMX]', 'Estaciones del metro');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.165114, 19.370802, 'Zapata', 'Estacion del metro de la linea 12 y 3 [Heriberto Frías, Col del Valle Centro, 03100 Ciudad de México, CDMX]', 'Estaciones del metro');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.124031, 19.443168, 'Tepito', 'Estacion del metro de la linea B [Tepito, Morelos, 06200 Ciudad de México, CDMX]', 'Estaciones del metro');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.170799, 19.361652, 'Coyoacan', 'Estacion del metro de la linea 3 [A en, Calz. de Tlalpan 1882, Country Club Churubusco, Ciudad de México, CDMX
+]', 'Estaciones del metro');
+
+INSERT INTO tema (nombre, color, correo_informador) VALUES ('Estaciones del metrobus', '#ef0000',  'mausuarez@ciencias.unam.mx');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.173889, 19.390025, 'Napoles','Estacion del metrobus de la Linea 1 [Col del Valle Centro, 03100 Ciudad de México, CDMX]','Estaciones del metrobus');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.178811, 19.374496, 'Felix Cuevas','Estacion del metrobus de la Linea 1 [Av. Extremadura, Insurgentes Mixcoac, 03200 Ciudad de México, CDMX]', 'Estaciones del metrobus');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.170085, 19.280494, 'La Joya','Estacion del metrobus de la Linea 1', 'Estaciones del metrobus');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.161322, 19.427640, 'Hamburgo', 'Estacion del metrobus de la Linea 1 [Hamburgo, Juárez, 06600 Ciudad de México, CDMX]', 'Estaciones del metrobus');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.138845, 19.469190, 'La Raza', 'Estacion del metrobus de la Linea 1','Estaciones del metrobus');
+
+INSERT INTO tema (nombre, color, correo_informador) VALUES ('Estaciones del tren ligero', '#27ef00',  'mausuarez@ciencias.unam.mx');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.147144, 19.302099, 'Estadio Azteca', 'Cerca de una plaza de Tlalpan y del Estadio Azteca' ,'Estaciones del tren ligero');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.108078, 19.259631, 'Xochimilco', 'San Pedro, 16090 Ciudad de México, CDMX' ,'Estaciones del tren ligero');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.143044, 19.307625, 'El Vergel', 'De Tlalpan, Ejido Viejo de Sta Úrsula Coapa, 04910 Ciudad de México, CDMX','Estaciones del tren ligero');
+
+INSERT INTO tema (nombre, color, correo_informador) VALUES ('Estaciones Tren Suburbano', '#d000ef',  'mausuarez@ciencias.unam.mx');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.171257, 19.492188, 'Fortuna', 'Eje 4 Nte. (Calz. Azcapotzalco la Villa), Estacion Pantaco, 02230 Ciudad de México, CDMX', 'Estaciones Tren Suburbano');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.152135, 19.447361, 'Buenavista', 'Buenavista, 06350 Ciudad de México, CDMX', 'Estaciones Tren Suburbano');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.186005, 19.599874, 'Lecheria', 'La Quebrada, Cuautitlán Izcalli, Méx.
+', 'Estaciones Tren Suburbano');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.195371, 19.565413, 'San Rafael', 'Avenida Prolongacion Hidalgo S/N, Tlayapa, 54110 Tlanepantla, Estado de México', 'Estaciones Tren Suburbano');
