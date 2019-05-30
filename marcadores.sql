@@ -29,11 +29,61 @@ INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema)
 
 INSERT INTO informador (correo,nombre,contrasenia) VALUES ('jhovan.gallardo@ciencias.unam.mx','Jhovan','password');
 
-INSERT INTO tema (nombre, color, correo_informador) VALUES ('CCHs', '#808000',  'jhovan.gallardo@ciencias.unam.mx');
+INSERT INTO tema (nombre, color, correo_informador) VALUES ('CCHs', '808000',  'jhovan.gallardo@ciencias.unam.mx');
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.142100, 19.484092,  'CCH Vallejo', 'Plantes del colegio de ciencias y humanidades ubicado en Vallejo.','CCHs');
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.204575, 19.500106,  'CCH Azcapotzalco', 'Plantes del colegio de ciencias y humanidades ubicado en Azcapotzalco.','CCHs');
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.058625, 19.384205,  'CCH Oriente', 'Plantes del colegio de ciencias y humanidades ubicado en Oriente.','CCHs');
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.199244, 19.312320,  'CCH Sur', 'Plantes del colegio de ciencias y humanidades ubicado en Sur.','CCHs');
+
+
+INSERT INTO tema (nombre,color,correo_informador) VALUES ('Primis','0055ff','jhovan.gallardo@ciencias.unam.mx');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-36.09754,-57.70757,'lobortis','eu tellus eu augue porttitor interdum. Sed auctor odio a purus.','Primis');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (66.18309,-73.2424,'Sed congue, elit','lacus. Nulla tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a','Primis');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (6.71417,55.11091,'tempor, est','imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit, est','Primis');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (148.14329,-46.14857,'enim','rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac','Primis');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (169.12292,-8.86645,'mi','tempor lorem, eget mollis lectus pede et risus. Quisque libero lacus, varius','Primis');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (36.77388,-47.30293,'sem mollis','hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus','Primis');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (78.80151,40.39503,'orci lobortis augue','tellus justo sit amet','Primis');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (140.76236,-81.38568,'egestas a, scelerisque','tortor, dictum eu, placerat eget, venenatis a,','Primis');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-145.22346,4.541,'tincidunt congue','dictum augue malesuada malesuada. Integer id magna et ipsum cursus','Primis');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (112.47949,5.62978,'Cras','molestie tellus. Aenean egestas hendrerit neque. In ornare','Primis');
+
+INSERT INTO tema (nombre,color,correo_informador) VALUES ('Pretium','00ff9d','jhovan.gallardo@ciencias.unam.mx');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-10.30744,-58.70723,'eu dui. Cum','Morbi quis urna. Nunc quis arcu vel quam dignissim pharetra. Nam','Pretium');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (21.7741,-24.39839,'auctor','a, arcu. Sed et libero. Proin mi. Aliquam gravida mauris ut mi. Duis','Pretium');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-95.51036,12.86603,'ridiculus mus.','amet, risus. Donec nibh enim, gravida sit amet,','Pretium');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-16.53656,32.56164,'eu','lectus ante dictum mi, ac mattis velit justo','Pretium');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (112.08507,66.26066,'lacus. Nulla tincidunt,','ipsum nunc id enim. Curabitur massa. Vestibulum accumsan neque et nunc. Quisque ornare tortor','Pretium');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-54.06531,31.16225,'iaculis odio.','ornare tortor at risus. Nunc ac sem ut dolor dapibus gravida. Aliquam tincidunt,','Pretium');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-81.41028,-30.76896,'neque sed dictum','tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper,','Pretium');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-14.82013,55.49114,'tortor.','amet risus. Donec egestas.','Pretium');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (25.02459,68.70447,'consequat auctor,','Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing. Mauris molestie','Pretium');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (100.74174,44.59565,'Vivamus euismod urna.','ac, eleifend vitae, erat. Vivamus nisi. Mauris nulla. Integer urna. Vivamus molestie dapibus','Pretium');
+
+INSERT INTO tema (nombre,color,correo_informador) VALUES ('Nullam,','ff6200','jhovan.gallardo@ciencias.unam.mx');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (107.75173,10.27641,'vulputate','vitae sodales nisi magna sed dui. Fusce aliquam, enim nec tempus scelerisque,','Nullam');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (112.55651,-75.20698,'magnis dis parturient','velit eu sem. Pellentesque ut ipsum ac mi eleifend egestas. Sed pharetra, felis','Nullam');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-157.37254,58.19967,'bibendum','Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem','Nullam');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-9.94178,51.37532,'tincidunt nibh. Phasellus','mauris, aliquam eu, accumsan','Nullam');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-73.72388,66.24037,'erat','arcu. Morbi sit amet massa. Quisque porttitor eros nec tellus. Nunc lectus','Nullam');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-17.94559,-36.39018,'Fusce aliquet','urna convallis erat, eget tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis','Nullam');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-58.64265,66.66264,'neque tellus,','elit fermentum risus, at','Nullam');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (169.89076,30.74349,'ipsum.','Etiam bibendum fermentum metus. Aenean sed','Nullam');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-98.82867,-56.40136,'lacinia orci, consectetuer','ac arcu. Nunc mauris.','Nullam');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (108.03756,-9.51105,'Donec','tempor erat neque non quam. Pellentesque habitant morbi tristique','Nullam');
+
+INSERT INTO tema (nombre,color,correo_informador) VALUES ('Praesent','ff00bb','jhovan.gallardo@ciencias.unam.mx');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-28.97175,-77.71234,'mauris','lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed,','Praesent');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (177.83269,-25.27987,'ipsum.','non enim commodo hendrerit. Donec porttitor tellus non magna. Nam ligula','Praesent');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-122.95261,-65.95335,'orci luctus et','vitae erat vel pede blandit','Praesent');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (42.62889,-71.64448,'nec ligula consectetuer','et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed','Praesent');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-65.75046,-10.61916,'nunc est, mollis','nec mauris blandit mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id magna et','Praesent');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (105.18638,25.33964,'vel pede','neque venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec','Praesent');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-125.52674,57.3089,'eu odio tristique','Maecenas mi felis, adipiscing fringilla, porttitor vulputate,','Praesent');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-91.76376,12.25758,'sapien','arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing.','Praesent');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (-159.49219,42.77219,'a neque.','laoreet posuere, enim nisl elementum purus, accumsan','Praesent');
+INSERT INTO marcador (longitud,latitud,descripcion,datos_utiles,nombre_tema) VALUES (37.12382,27.58845,'Quisque','ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas','Praesent');
+
 
 
 INSERT INTO informador (correo,nombre,contrasenia) VALUES ('kevincervantes@ciencias.unam.mx','Kevin','qwerty');
