@@ -185,3 +185,13 @@ INSERT INTO tema (nombre, color, correo_informador) VALUES ('Iglesias para redim
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.118994, 19.487596, 'La basilica', 'Para rezar', 'Iglesias para redimirse');
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.137281, 19.436485, 'La catedral', 'La mera mera', 'Iglesias para redimirse');
 INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.140206, 19.434084, 'Templo de San Francisco', 'Sobre madero', 'Iglesias para redimirse');
+
+INSERT INTO tema (nombre, color, correo_informador) VALUES ('Bares', '471b63',  'fer.reyesg@ciencias.unam.mx');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.155685, 19.427040, 'Hanky Panky','Ubicación secreta','Bares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.166609, 19.421257, 'The Doghouse','Sinaloa 61B, Roma Norte', 'Bares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.171861, 19.422458, 'Toledo Rooftop','Toledo 39, piso 6, Juárez', 'Bares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.169204, 19.416403, 'La Clandestina', 'Álvaro Obregón 298, Condesa', 'Bares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.160113, 19.412139, 'Falling Piano
+', 'Coahuila 99, col. Roma Norte','Bares');
+INSERT INTO marcador (longitud, latitud, descripcion, datos_utiles, nombre_tema) VALUES (-99.154839, 19.430424, 'Taberna Luciferina
+', 'Lucerna 34, Juárez','Bares');
